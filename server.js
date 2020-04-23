@@ -23,7 +23,7 @@ app.get('/exercise', (req, res) => {
 });
 
 app.get('/stats', function (req, res) {
-  res.sendFile(path.join(_dirname, 'public/stats.html'));
+  res.sendFile(path.join(_dirname, '/public/stats.html'));
 })
 
 require('./routes')(app);
